@@ -1,0 +1,86 @@
+{
+    "result": [
+        {
+            "id": "66a556b5c0623057e6e447d5",
+            "orderNumber": "1097",
+            "createdOn": "2024-07-27T20:21:07.562Z",
+            "modifiedOn": "2024-07-27T20:21:09.119Z",
+            "channel": "web",
+            "testmode": false,
+            "customerEmail": "example@example.com",
+            "billingAddress": {
+                "firstName": "FirstName",
+                "lastName": "LastName",
+                "address1": "Example Address",
+                "address2": null,
+                "city": "Example City",
+                "state": "XX",
+                "countryCode": "US",
+                "postalCode": "12345",
+                "phone": ""
+            },
+            "shippingAddress": null,
+            "fulfillmentStatus": "PENDING",
+            "lineItems": [
+                {
+                    "id": "xxxxxxxxxxxxxxxxxx47",
+                    "variantId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx3",
+                    "sku": "EP",
+                    "weight": 0.0,
+                    "width": 0.0,
+                    "length": 0.0,
+                    "height": 0.0,
+                    "productId": "6615eaf99af0f77c0174fc2a",
+                    "productName": "Essential Plan",
+                    "quantity": 1,
+                    "unitPricePaid": {
+                        "value": "199.00",
+                        "currency": "USD"
+                    },
+                    "variantOptions": [],
+                    "customizations": null,
+                    "imageUrl": "https://example.com/image.png",
+                    "lineItemType": "SERVICE"
+                }
+            ],
+            "internalNotes": [],
+            "shippingLines": [],
+            "discountLines": [],
+            "formSubmission": null,
+            "fulfillments": [],
+            "subtotal": {
+                "value": "199.00",
+                "currency": "USD"
+            },
+            "shippingTotal": {
+                "value": "0.00",
+                "currency": "USD"
+            },
+            "discountTotal": {
+                "value": "0.00",
+                "currency": "USD"
+            },
+            "taxTotal": {
+                "value": "20.61",
+                "currency": "USD"
+            },
+            "refundedTotal": {
+                "value": "0.00",
+                "currency": "USD"
+            },
+            "grandTotal": {
+                "value": "219.61",
+                "currency": "USD"
+            },
+            "channelName": "Squarespace",
+            "externalOrderReference": null,
+            "fulfilledOn": null,
+            "priceTaxInterpretation": "EXCLUSIVE"
+        }
+    ],
+    "pagination": {
+        "nextPageUrl": null,
+        "nextPageCursor": null,
+        "hasNextPage": false
+    }
+}
