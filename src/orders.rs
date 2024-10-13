@@ -1,4 +1,5 @@
-use log::info;
+use anyhow::Context;
+use tracing::{debug, info};
 
 use crate::{
     client::Client,
@@ -26,6 +27,11 @@ impl Client {
 
         let response = self.get_default_get_request(url_builder.build()).await?;
 
-        Ok(response.json().await?)
+        debug!("{:?}", response);
+
+        Ok(response
+            .json()
+            .await
+            .context("Error decoding Order from retrieve_order response.")?)
     }
 }

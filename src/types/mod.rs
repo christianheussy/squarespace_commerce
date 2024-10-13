@@ -4,6 +4,7 @@
 pub mod orders;
 pub mod pagination;
 pub mod products;
+pub mod webhook;
 
 #[cfg(test)]
 mod tests {
