@@ -29,9 +29,9 @@ impl Client {
 
         debug!("{:?}", response);
 
-        Ok(response
+        response
             .json()
             .await
-            .context("Error decoding Order from retrieve_order response.")?)
+            .context("Error decoding Order from retrieve_order response.")
     }
 }
