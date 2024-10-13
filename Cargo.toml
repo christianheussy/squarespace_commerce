@@ -2,6 +2,17 @@
 name = "squarespace_commerce"
 version = "0.1.0"
 edition = "2021"
+description = "A package that permits interfacing with squarespace commerce APIs"
+homepage = "https://github.com/christianheussy/squarespace_commerce"
+repository = "https://github.com/christianheussy/squarespace_commerce"
+license = "MIT OR Apache-2.0"
+keywords = ["squarespace"]
+categories = [
+    "api-bindings",
+    "asynchronous",
+    "web-programming",
+    "web-programming::http-client",
+]
 
 [lib]
 

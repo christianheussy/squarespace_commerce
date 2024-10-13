@@ -1,5 +1,4 @@
-//! A crate for interfacing with Squarespace's [Commerce
-//! APIs](https://developers.squarespace.com/commerce-apis/overview).
+#![doc = include_str!("../README.md")]
 
 pub mod client;
 pub mod orders;
